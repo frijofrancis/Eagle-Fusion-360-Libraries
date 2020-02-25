@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <eagle version="9.5.2">
 <drawing>
 <settings>
@@ -60,7 +59,7 @@
 <description>&lt;b&gt;&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by Frijo Francis&lt;/author&gt;
 &lt;p&gt;For more Eagle libraries go to &lt;a href="https://github.com/frijofrancis/libraries"&gt;Github&lt;/a&gt;</description>
 <packages>
-<package name="24LDQFN">
+<package name="24LDQFN" urn="urn:adsk.eagle:footprint:17573728/1">
 <description>&lt;b&gt;Package Outline Drawing&lt;/b&gt;&lt;p&gt;
 
 L24.4x4K&lt;br&gt;
@@ -92,13 +91,13 @@ Rev 2, 12/18
 <smd name="9" x="-1.9" y="-0.25" dx="0.25" dy="0.6" layer="1" rot="R90"/>
 <smd name="8" x="-1.9" y="-0.75" dx="0.25" dy="0.6" layer="1" rot="R90"/>
 <smd name="7" x="-1.9" y="-1.25" dx="0.25" dy="0.6" layer="1" rot="R90"/>
+<smd name="GND" x="0" y="0" dx="2.5" dy="2.5" layer="1"/>
 <text x="-1.4" y="2.6" size="0.5" layer="25">&gt;NAME</text>
 <text x="-1.4" y="-3" size="0.5" layer="27">&gt;VALUE</text>
 <wire x1="-2" y1="-2" x2="-2" y2="2" width="0.1" layer="51"/>
 <wire x1="-2" y1="2" x2="2" y2="2" width="0.1" layer="51"/>
 <wire x1="2" y1="2" x2="2" y2="-2" width="0.1" layer="51"/>
 <wire x1="2" y1="-2" x2="-2" y2="-2" width="0.1" layer="51"/>
-<smd name="GND" x="0" y="0" dx="2.5" dy="2.5" layer="1"/>
 <wire x1="-1.6" y1="2" x2="-2" y2="2" width="0.1" layer="21"/>
 <wire x1="-2" y1="2" x2="-2" y2="1.6" width="0.1" layer="21"/>
 <wire x1="1.6" y1="2" x2="2" y2="2" width="0.1" layer="21"/>
@@ -109,7 +108,7 @@ Rev 2, 12/18
 <wire x1="-2" y1="-2" x2="-1.6" y2="-2" width="0.1" layer="21"/>
 <wire x1="2" y1="-1.6" x2="1.6" y2="-2" width="0.1" layer="21"/>
 </package>
-<package name="ARDUINO_NANO_3_WITHOUT_ICSP">
+<package name="ARDUINO_NANO_3_WITHOUT_ICSP" urn="urn:adsk.eagle:footprint:17573727/1">
 <pad name="1" x="-7.62" y="17.78" drill="0.8" shape="square"/>
 <pad name="2" x="-7.62" y="15.24" drill="0.8" shape="octagon"/>
 <pad name="3" x="-7.62" y="12.7" drill="0.8" shape="octagon"/>
@@ -147,7 +146,6 @@ Rev 2, 12/18
 <wire x1="-2.54" y1="7.62" x2="2.54" y2="7.62" width="0.1524" layer="51"/>
 <wire x1="2.54" y1="7.62" x2="2.54" y2="5.08" width="0.1524" layer="51"/>
 <wire x1="2.54" y1="5.08" x2="-2.54" y2="5.08" width="0.1524" layer="51"/>
-<circle x="0" y="6.35" radius="0.743303125" width="0.1524" layer="51"/>
 <wire x1="-4" y1="-14.6" x2="-4" y2="-21.6" width="0.1524" layer="51"/>
 <wire x1="-4" y1="-21.6" x2="-4" y2="-24.6" width="0.1524" layer="51"/>
 <wire x1="-4" y1="-24.6" x2="4" y2="-24.6" width="0.1524" layer="51"/>
@@ -156,7 +154,6 @@ Rev 2, 12/18
 <wire x1="4" y1="-14.6" x2="-4" y2="-14.6" width="0.1524" layer="51"/>
 <wire x1="-8.9" y1="-21.6" x2="-4" y2="-21.6" width="0.1524" layer="51"/>
 <wire x1="8.9" y1="-21.6" x2="4" y2="-21.6" width="0.1524" layer="51"/>
-<text x="-2.5" y="-19.9" size="1.778" layer="51">USB</text>
 <wire x1="-6.4" y1="21.6" x2="-8.9" y2="21.6" width="0.1524" layer="21"/>
 <wire x1="-8.9" y1="21.6" x2="-8.9" y2="19.7" width="0.1524" layer="21"/>
 <wire x1="6.4" y1="21.6" x2="8.9" y2="21.6" width="0.1524" layer="21"/>
@@ -165,10 +162,31 @@ Rev 2, 12/18
 <wire x1="-8.9" y1="-21.6" x2="-6" y2="-21.6" width="0.1524" layer="21"/>
 <wire x1="6" y1="-21.6" x2="8.9" y2="-21.6" width="0.1524" layer="21"/>
 <wire x1="8.9" y1="-21.6" x2="8.9" y2="-19" width="0.1524" layer="21"/>
+<circle x="0" y="6.35" radius="0.743303125" width="0.1524" layer="51"/>
+<text x="-2.5" y="-19.9" size="1.778" layer="51">USB</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="24LDQFN" urn="urn:adsk.eagle:package:17573733/1" type="box">
+<description>&lt;b&gt;Package Outline Drawing&lt;/b&gt;&lt;p&gt;
+
+L24.4x4K&lt;br&gt;
+24 Lead Step Cut Quad Flat No-Lead Plastic Package (SCQFN)&lt;br&gt;
+Rev 2, 12/18
+
+&lt;p&gt;For the most recent package outline drawing, see &lt;a href="https://www.renesas.com/in/en/package-image/pdf/outdrawing/l24.4x4k.pdf"&gt;L24.4x4K.&lt;/a&gt;</description>
+<packageinstances>
+<packageinstance name="24LDQFN"/>
+</packageinstances>
+</package3d>
+<package3d name="ARDUINO_NANO_3_WITHOUT_ICSP" urn="urn:adsk.eagle:package:17573732/1" type="box">
+<packageinstances>
+<packageinstance name="ARDUINO_NANO_3_WITHOUT_ICSP"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="CAP_POL">
+<symbol name="CAP_POL" urn="urn:adsk.eagle:symbol:17573731/1">
 <wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-0.508" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="-0.508" y1="-2.54" x2="-0.508" y2="2.54" width="0.254" layer="94"/>
@@ -186,7 +204,7 @@ Rev 2, 12/18
 <vertex x="0.508" y="2.54"/>
 </polygon>
 </symbol>
-<symbol name="ISL78083">
+<symbol name="ISL78083" urn="urn:adsk.eagle:symbol:17573730/1">
 <description>ISL78083</description>
 <pin name="VIN2/3" x="15.24" y="5.08" length="short" rot="R180"/>
 <pin name="CFG1" x="-15.24" y="2.54" length="short"/>
@@ -218,7 +236,7 @@ Rev 2, 12/18
 <wire x1="12.7" y1="-30.48" x2="12.7" y2="20.32" width="0.254" layer="94"/>
 <wire x1="12.7" y1="20.32" x2="-12.7" y2="20.32" width="0.254" layer="94"/>
 </symbol>
-<symbol name="ARDUINO_NANO_V3">
+<symbol name="ARDUINO_NANO_V3" urn="urn:adsk.eagle:symbol:17573729/1">
 <pin name="TX/D1" x="-12.7" y="17.78" length="short"/>
 <pin name="RX/D0" x="-12.7" y="15.24" length="short"/>
 <pin name="RST" x="12.7" y="-17.78" length="short" function="dot" rot="R180"/>
@@ -256,7 +274,7 @@ Rev 2, 12/18
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ISL78083" prefix="U">
+<deviceset name="ISL78083" prefix="U" urn="urn:adsk.eagle:component:17573735/1">
 <description>&lt;B&gt;Renesas ISL78083&lt;/b&gt;&lt;p&gt;
 
 Automotive Camera Power Management IC with Three Synchronous Buck Regulators and One Low Dropout Linear Regulator&lt;p&gt;
@@ -300,6 +318,9 @@ For a full list of related documents, visit our website:
 <connect gate="G$1" pin="VIN1" pad="8"/>
 <connect gate="G$1" pin="VIN2/3" pad="1"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17573733/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Power Management Specialised - PMIC Automotive Camera PMIC" constant="no"/>
@@ -313,7 +334,7 @@ For a full list of related documents, visit our website:
 </device>
 </devices>
 </deviceset>
-<deviceset name="ARDUINO_NANO_V3" prefix="U" uservalue="yes">
+<deviceset name="ARDUINO_NANO_V3" prefix="U" uservalue="yes" urn="urn:adsk.eagle:component:17573734/1">
 <description>&lt;b&gt;&lt;i&gt;Specifications:&lt;/b&gt;&lt;/i&gt;&lt;br&gt;
 &lt;br&gt;- Microcontroller Atmel ATmega168 or ATmega328
 &lt;br&gt;- Operating Voltage (logic level) 5 V
@@ -364,6 +385,9 @@ For a full list of related documents, visit our website:
 <connect gate="G$1" pin="TX/D1" pad="1"/>
 <connect gate="G$1" pin="VIN" pad="30"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:17573732/1"/>
+</package3dinstances>
 <technologies>
 <technology name="">
 <attribute name="DESCRIPTION" value="Development Board, Arduino Nano, ATmega328 MCU, 14 3.3V I/O, 6 PWM Outputs, USB Mini B" constant="no"/>
@@ -380,4 +404,16 @@ For a full list of related documents, visit our website:
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note severity="warning" version="8.3">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note severity="warning" version="8.3">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>
