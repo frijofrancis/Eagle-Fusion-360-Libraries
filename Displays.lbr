@@ -72,7 +72,7 @@
 </layers>
 <library>
 <packages>
-<package name="0.96_IN_OLED_DISPLAY" urn="urn:adsk.eagle:footprint:15983222/2">
+<package name="0.96_IN_OLED_DISPLAY" urn="urn:adsk.eagle:footprint:19503781/1">
 <wire x1="0" y1="0" x2="6.65" y2="0" width="0.127" layer="21"/>
 <wire x1="6.65" y1="0" x2="6.65" y2="2" width="0.127" layer="21"/>
 <wire x1="6.65" y1="2" x2="20.65" y2="2" width="0.127" layer="21"/>
@@ -102,14 +102,14 @@
 </package>
 </packages>
 <packages3d>
-<package3d name="0.96_IN_OLED_DISPLAY" urn="urn:adsk.eagle:package:15983223/3" type="model">
+<package3d name="0.96_IN_OLED_DISPLAY" urn="urn:adsk.eagle:package:19503784/1" type="model">
 <packageinstances>
 <packageinstance name="0.96_IN_OLED_DISPLAY"/>
 </packageinstances>
 </package3d>
 </packages3d>
 <symbols>
-<symbol name="128*64_I2C_OLED_DISPLAY" urn="urn:adsk.eagle:symbol:16010394/1">
+<symbol name="128*64_I2C_OLED_DISPLAY" urn="urn:adsk.eagle:symbol:19503782/1">
 <pin name="GND" x="5.08" y="-2.54" length="short" direction="pwr" rot="R90"/>
 <pin name="VCC" x="7.62" y="-2.54" length="short" direction="pwr" rot="R90"/>
 <pin name="SCL" x="10.16" y="-2.54" length="short" rot="R90"/>
@@ -125,27 +125,27 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="0.96_IN_OLED_DISPLAY" prefix="OLED" urn="urn:adsk.eagle:component:16010395/1">
-<description>&lt;b&gt;Interface:&lt;/b&gt; IIC/I2C
-&lt;br&gt;
-&lt;br&gt;GND: Power Gound
-&lt;br&gt;VCC: 3.3V-5V
-&lt;br&gt;SCL: CLK clock
-&lt;br&gt;SDA: IIC data
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt;Features:&lt;/b&gt;&lt;br&gt;
-
-&lt;br&gt;Color: White LED
-&lt;br&gt;Resolution: 128x64
-&lt;br&gt;Power: 0.06W
-&lt;br&gt;Wide power supply range: DC 3V-5V
-&lt;br&gt;Temperature: -30°C to 70°C
-&lt;br&gt;Dimension: 29.28 x 27.1 mm (LW)
-&lt;br&gt;Compatible with 3.3V and 5V control chip I / O level
-&lt;br&gt;OLED internal drive chip: SSD1306
-&lt;br&gt;
-&lt;br&gt;&lt;b&gt;Package included:&lt;/b&gt;&lt;br&gt;
-
+<deviceset name="0.96_IN_OLED_DISPLAY" prefix="OLED" urn="urn:adsk.eagle:component:19503785/1">
+<description>&lt;b&gt;Interface:&lt;/b&gt; IIC/I2C&#xD;
+&lt;br&gt;&#xD;
+&lt;br&gt;GND: Power Gound&#xD;
+&lt;br&gt;VCC: 3.3V-5V&#xD;
+&lt;br&gt;SCL: CLK clock&#xD;
+&lt;br&gt;SDA: IIC data&#xD;
+&lt;br&gt;&#xD;
+&lt;br&gt;&lt;b&gt;Features:&lt;/b&gt;&lt;br&gt;&#xD;
+&#xD;
+&lt;br&gt;Color: White LED&#xD;
+&lt;br&gt;Resolution: 128x64&#xD;
+&lt;br&gt;Power: 0.06W&#xD;
+&lt;br&gt;Wide power supply range: DC 3V-5V&#xD;
+&lt;br&gt;Temperature: -30°C to 70°C&#xD;
+&lt;br&gt;Dimension: 29.28 x 27.1 mm (LW)&#xD;
+&lt;br&gt;Compatible with 3.3V and 5V control chip I / O level&#xD;
+&lt;br&gt;OLED internal drive chip: SSD1306&#xD;
+&lt;br&gt;&#xD;
+&lt;br&gt;&lt;b&gt;Package included:&lt;/b&gt;&lt;br&gt;&#xD;
+&#xD;
 &lt;br&gt;1 x White OLED display</description>
 <gates>
 <gate name="G$1" symbol="128*64_I2C_OLED_DISPLAY" x="0" y="0"/>
@@ -159,7 +159,7 @@
 <connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:15983223/3"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19503784/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -171,12 +171,22 @@
 </library>
 </drawing>
 <compatibility>
-<note version="8.3" severity="warning">
+<note version="8.3" severity="warning">&#xD;
+Since Version 8.3, EAGLE supports URNs for individual library&#xD;
+assets (packages, symbols, and devices). The URNs of those assets&#xD;
+will not be understood (or retained) with this version.&#xD;
+</note>
+<note version="8.3" severity="warning">&#xD;
+Since Version 8.3, EAGLE supports the association of 3D packages&#xD;
+with devices in libraries, schematics, and board files. Those 3D&#xD;
+packages will not be understood (or retained) with this version.&#xD;
+</note>
+<note severity="warning" version="8.3">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
 will not be understood (or retained) with this version.
 </note>
-<note version="8.3" severity="warning">
+<note severity="warning" version="8.3">
 Since Version 8.3, EAGLE supports the association of 3D packages
 with devices in libraries, schematics, and board files. Those 3D
 packages will not be understood (or retained) with this version.
