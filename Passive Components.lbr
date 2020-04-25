@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <eagle version="9.6.1">
 <drawing>
 <settings>
@@ -7,7 +6,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -161,100 +160,88 @@
 <description>&lt;b&gt;&lt;/b&gt;&lt;p&gt;&lt;author&gt;Created by Frijo Francis&lt;/author&gt;
 &lt;p&gt;For more Eagle libraries go to &lt;a href="https://github.com/frijofrancis/libraries"&gt;Github&lt;/a&gt;</description>
 <packages>
-<package name="C-103">
+<package name="C-103" urn="urn:adsk.eagle:footprint:19504220/2">
 <wire x1="-2" y1="1.3" x2="2" y2="1.3" width="0.1524" layer="21"/>
 <wire x1="2" y1="-1.3" x2="-2" y2="-1.3" width="0.1524" layer="21"/>
 <wire x1="2.5" y1="0.8" x2="2.5" y2="-0.8" width="0.1524" layer="21"/>
 <wire x1="-2.5" y1="0.8" x2="-2.5" y2="-0.8" width="0.1524" layer="21"/>
 <wire x1="1.27" y1="0" x2="0.381" y2="0" width="0.1524" layer="51"/>
-<wire x1="0.381" y1="0" x2="0.254" y2="0" width="0.1524" layer="21"/>
 <wire x1="0.254" y1="0" x2="0.254" y2="0.762" width="0.254" layer="21"/>
 <wire x1="0.254" y1="0" x2="0.254" y2="-0.762" width="0.254" layer="21"/>
 <wire x1="-0.254" y1="0.762" x2="-0.254" y2="0" width="0.254" layer="21"/>
 <wire x1="-0.254" y1="0" x2="-0.254" y2="-0.762" width="0.254" layer="21"/>
-<wire x1="-0.254" y1="0" x2="-0.381" y2="0" width="0.1524" layer="21"/>
 <wire x1="-0.381" y1="0" x2="-1.27" y2="0" width="0.1524" layer="51"/>
-<pad name="1" x="-1.5" y="0" drill="0.8" diameter="1.6" shape="octagon"/>
-<pad name="2" x="1.5" y="0" drill="0.8" diameter="1.6" shape="octagon"/>
-<text x="-1.351" y="1.524" size="0.5" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.351" y="-1.994" size="0.5" layer="27" ratio="10">&gt;VALUE</text>
 <wire x1="-2" y1="1.3" x2="-2.5" y2="0.8" width="0.1524" layer="21" curve="90"/>
 <wire x1="-2.5" y1="-0.8" x2="-2" y2="-1.3" width="0.1524" layer="21" curve="90"/>
 <wire x1="2" y1="-1.3" x2="2.5" y2="-0.8" width="0.1524" layer="21" curve="90"/>
 <wire x1="2.5" y1="0.8" x2="2" y2="1.3" width="0.1524" layer="21" curve="90"/>
-</package>
-<package name="C-104">
-<wire x1="-2.4" y1="1.3" x2="2.5" y2="1.3" width="0.1524" layer="21"/>
-<wire x1="2.5" y1="-1.3" x2="-2.5" y2="-1.3" width="0.1524" layer="21"/>
-<wire x1="3" y1="0.7" x2="3" y2="0.6" width="0.1524" layer="21"/>
-<wire x1="3" y1="0.6" x2="3" y2="-0.7" width="0.1524" layer="21"/>
-<wire x1="-3" y1="0.8" x2="-3" y2="0.6" width="0.1524" layer="21"/>
-<wire x1="-3" y1="0.6" x2="-3" y2="-0.7" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0" x2="0.381" y2="0" width="0.1524" layer="51"/>
-<wire x1="0.381" y1="0" x2="0.254" y2="0" width="0.1524" layer="21"/>
-<wire x1="0.254" y1="0" x2="0.254" y2="0.762" width="0.254" layer="21"/>
-<wire x1="0.254" y1="0" x2="0.254" y2="-0.762" width="0.254" layer="21"/>
-<wire x1="-0.254" y1="0.762" x2="-0.254" y2="0" width="0.254" layer="21"/>
-<wire x1="-0.254" y1="0" x2="-0.254" y2="-0.762" width="0.254" layer="21"/>
-<wire x1="-0.254" y1="0" x2="-0.381" y2="0" width="0.1524" layer="21"/>
-<wire x1="-0.381" y1="0" x2="-1.27" y2="0" width="0.1524" layer="51"/>
+<wire x1="-0.254" y1="0" x2="-0.508" y2="0" width="0.1524" layer="21"/>
+<wire x1="0.254" y1="0" x2="0.508" y2="0" width="0.1524" layer="21"/>
 <pad name="1" x="-1.5" y="0" drill="0.8" diameter="1.6" shape="octagon"/>
 <pad name="2" x="1.5" y="0" drill="0.8" diameter="1.6" shape="octagon"/>
-<text x="-1.351" y="1.524" size="0.5" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.351" y="-1.994" size="0.5" layer="27" ratio="10">&gt;VALUE</text>
+<text x="0" y="1.524" size="0.508" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.524" size="0.508" layer="27" font="vector" ratio="10" align="top-center">&gt;VALUE</text>
+</package>
+<package name="C-104" urn="urn:adsk.eagle:footprint:19504219/3">
+<wire x1="-2.4" y1="1.3" x2="2.5" y2="1.3" width="0.1524" layer="21"/>
+<wire x1="2.5" y1="-1.3" x2="-2.5" y2="-1.3" width="0.1524" layer="21"/>
+<wire x1="3" y1="0.7" x2="3" y2="-0.7" width="0.1524" layer="21"/>
+<wire x1="-3" y1="0.8" x2="-3" y2="-0.7" width="0.1524" layer="21"/>
+<wire x1="0.254" y1="0.762" x2="0.254" y2="-0.762" width="0.254" layer="21"/>
+<wire x1="-0.254" y1="0.762" x2="-0.254" y2="-0.762" width="0.254" layer="21"/>
 <wire x1="-2.5" y1="-1.3" x2="-3" y2="-0.7" width="0.1524" layer="21" curve="-90"/>
 <wire x1="-3" y1="0.8" x2="-2.4" y2="1.3" width="0.1524" layer="21" curve="-90"/>
 <wire x1="2.5" y1="1.3" x2="3" y2="0.7" width="0.1524" layer="21" curve="-90"/>
 <wire x1="3" y1="-0.7" x2="2.5" y2="-1.3" width="0.1524" layer="21" curve="-90"/>
+<pad name="1" x="-1.27" y="0" drill="0.8"/>
+<pad name="2" x="1.27" y="0" drill="0.8"/>
+<text x="0" y="1.524" size="0.5" layer="25" font="vector" ratio="10" align="bottom-center">&gt;NAME</text>
+<text x="-1.351" y="-1.994" size="0.5" layer="27" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
+<packages3d>
+<package3d name="C-104" urn="urn:adsk.eagle:package:19504227/3" type="box">
+<packageinstances>
+<packageinstance name="C-104"/>
+</packageinstances>
+</package3d>
+<package3d name="C-103" urn="urn:adsk.eagle:package:19504228/3" type="model">
+<packageinstances>
+<packageinstance name="C-103"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="CAP_POL" urn="urn:adsk.eagle:symbol:17573731/1">
-<wire x1="-1.27" y1="2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-0.508" y1="-2.54" x2="-0.508" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="2.54" x2="-0.508" y2="2.54" width="0.254" layer="94"/>
-<wire x1="-1.778" y1="1.27" x2="-2.794" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-2.286" y1="1.778" x2="-2.286" y2="0.762" width="0.254" layer="94"/>
-<text x="-3.556" y="3.81" size="1.27" layer="95" align="center-left">&gt;NAME</text>
-<text x="-3.81" y="-3.81" size="1.27" layer="96" align="center-left">&gt;VALUE</text>
-<pin name="+" x="-3.81" y="0" visible="pad" length="short"/>
-<pin name="-" x="3.81" y="0" visible="pad" length="short" rot="R180"/>
-<polygon width="0.254" layer="94">
+<symbol name="POTENTIOMETER" urn="urn:adsk.eagle:symbol:19504222/2">
+<description>&lt;h3&gt;Potentiometer (Pot)&lt;/h3&gt;
+&lt;p&gt;Three-terminal potentiometers, with an adjustable wiper and two adjustable resistors. A pot can be used to create a configurable voltage divider, or as a variable resistor.&lt;/p&gt;</description>
+<wire x1="5.08" y1="0" x2="4.572" y2="0" width="0.1524" layer="94"/>
+<wire x1="4.572" y1="0" x2="3.81" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.016" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="1.27" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.016" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="-1.27" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.016" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-3.81" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.016" x2="-4.572" y2="0" width="0.254" layer="94"/>
+<wire x1="-4.572" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.159" y1="2.032" x2="3.429" y2="2.667" width="0.1524" layer="94"/>
+<wire x1="3.429" y1="2.667" x2="3.429" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="3.429" y1="2.032" x2="3.429" y2="1.397" width="0.1524" layer="94"/>
+<wire x1="3.429" y1="1.397" x2="2.159" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="4.699" y1="2.032" x2="3.429" y2="2.032" width="0.1524" layer="94"/>
+<text x="5.08" y="3.81" size="1.778" layer="95" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.778" layer="95" font="vector" rot="R180" align="center">&gt;VALUE</text>
+<pin name="A" x="7.62" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="E" x="-7.62" y="0" visible="off" length="short" direction="pas"/>
+<pin name="S" x="0" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
+<polygon width="0.2032" layer="94">
 <vertex x="1.27" y="2.54"/>
-<vertex x="1.27" y="-2.54"/>
-<vertex x="0.508" y="-2.54"/>
-<vertex x="0.508" y="2.54"/>
+<vertex x="0" y="1.27"/>
+<vertex x="-1.27" y="2.54"/>
 </polygon>
 </symbol>
-<symbol name="CAP">
-<wire x1="0" y1="2.54" x2="0" y2="2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="0.508" width="0.1524" layer="94"/>
-<text x="1.524" y="2.921" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="1.524" y="-2.159" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<rectangle x1="-2.032" y1="0.508" x2="2.032" y2="1.016" layer="94"/>
-<rectangle x1="-2.032" y1="1.524" x2="2.032" y2="2.032" layer="94"/>
-<pin name="1" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="2" x="0" y="-2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-</symbol>
-<symbol name="CAPACITOR">
-<wire x1="0" y1="-5.08" x2="0" y2="-2.032" width="0.1524" layer="94"/>
-<wire x1="0" y1="-0.508" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<rectangle x1="-2.032" y1="-2.032" x2="2.032" y2="-1.524" layer="94"/>
-<rectangle x1="-2.032" y1="-1.016" x2="2.032" y2="-0.508" layer="94"/>
-</symbol>
-<symbol name="ELKO">
-<wire x1="-1.524" y1="-0.889" x2="1.524" y2="-0.889" width="0.254" layer="94"/>
-<wire x1="1.524" y1="-0.889" x2="1.524" y2="0" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="0" x2="-1.524" y2="-0.889" width="0.254" layer="94"/>
-<wire x1="-1.524" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="1.524" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0" y2="-5.08" width="0.1524" layer="94"/>
-<text x="-0.5842" y="0.4064" size="1.27" layer="94" rot="R90">+</text>
-<rectangle x1="-1.651" y1="-2.54" x2="1.651" y2="-1.651" layer="94"/>
-</symbol>
-<symbol name="RESISTOR">
+<symbol name="RESISTOR" urn="urn:adsk.eagle:symbol:19504223/2">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
 <wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
 <wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
@@ -269,78 +256,77 @@
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
-<symbol name="POTENTIOMETER">
-<description>&lt;h3&gt;Potentiometer (Pot)&lt;/h3&gt;
-&lt;p&gt;Three-terminal potentiometers, with an adjustable wiper and two adjustable resistors. A pot can be used to create a configurable voltage divider, or as a variable resistor.&lt;/p&gt;</description>
-<wire x1="0" y1="-5.08" x2="0" y2="-4.572" width="0.1524" layer="94"/>
-<wire x1="0" y1="-4.572" x2="-1.016" y2="-3.81" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-3.81" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="-1.016" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="-1.27" x2="1.27" y2="0" width="0.254" layer="94"/>
-<wire x1="1.27" y1="0" x2="-1.016" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="1.27" x2="1.27" y2="2.54" width="0.254" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="-1.016" y2="3.81" width="0.254" layer="94"/>
-<wire x1="-1.016" y1="3.81" x2="0" y2="4.572" width="0.254" layer="94"/>
-<wire x1="0" y1="4.572" x2="0" y2="5.08" width="0.1524" layer="94"/>
-<wire x1="2.032" y1="-2.159" x2="2.667" y2="-3.429" width="0.1524" layer="94"/>
-<wire x1="2.667" y1="-3.429" x2="2.032" y2="-3.429" width="0.1524" layer="94"/>
-<wire x1="2.032" y1="-3.429" x2="1.397" y2="-3.429" width="0.1524" layer="94"/>
-<wire x1="1.397" y1="-3.429" x2="2.032" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="2.032" y1="-4.699" x2="2.032" y2="-3.429" width="0.1524" layer="94"/>
-<text x="3.048" y="-0.254" size="1.778" layer="95" font="vector" rot="R270">&gt;NAME</text>
-<text x="-1.27" y="0" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center">&gt;Value</text>
-<pin name="A" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
-<pin name="E" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<polygon width="0.2032" layer="94">
-<vertex x="2.54" y="-1.27"/>
-<vertex x="1.27" y="0"/>
-<vertex x="2.54" y="1.27"/>
-</polygon>
-</symbol>
-<symbol name="TRIMPOT">
+<symbol name="TRIMPOT" urn="urn:adsk.eagle:symbol:19504221/2">
 <description>&lt;h3&gt;Trimming Potentiometer (Trimpot)&lt;/h3&gt;
 &lt;p&gt;Three-terminal potentiometers, with an adjustable wiper and two adjustable resistors. A pot can be used to create a configurable voltage divider, or as a variable resistor.&lt;/p&gt;
 &lt;p&gt;"Trimpots" are a subset of potentiometers, usually intended for "set-and-forget" applications. They're often more delicate than standard potentiometers - rated for fewer turns.&lt;/p&gt;</description>
-<pin name="CCW" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
-<pin name="CW" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
-<pin name="WIPER" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<wire x1="0" y1="-2.54" x2="-1.016" y2="-2.159" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="-2.159" x2="1.016" y2="-1.524" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="-1.524" x2="-1.016" y2="-0.889" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="-0.889" x2="1.016" y2="-0.254" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="-0.254" x2="-1.016" y2="0.381" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="0.381" x2="1.016" y2="1.016" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="1.016" x2="-1.016" y2="1.651" width="0.1524" layer="94"/>
-<wire x1="-1.016" y1="1.651" x2="1.016" y2="2.286" width="0.1524" layer="94"/>
-<wire x1="1.016" y1="2.286" x2="0" y2="2.54" width="0.1524" layer="94"/>
-<text x="-1.524" y="2.54" size="1.778" layer="95" font="vector" rot="R90">&gt;NAME</text>
-<text x="1.524" y="2.54" size="1.778" layer="96" font="vector" rot="R90" align="top-left">&gt;VALUE</text>
+<pin name="CCW" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="CW" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="WIPER" x="0" y="5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
+<wire x1="2.54" y1="0" x2="2.159" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="2.159" y1="-1.016" x2="1.524" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.524" y1="1.016" x2="0.889" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="0.889" y1="-1.016" x2="0.254" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="0.254" y1="1.016" x2="-0.381" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="-1.016" x2="-1.016" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="1.016" x2="-1.651" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-1.651" y1="-1.016" x2="-2.286" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-2.286" y1="1.016" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<text x="5.08" y="2.54" size="1.778" layer="95" font="vector" rot="R180" align="center">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.778" layer="96" font="vector" rot="R180" align="center">&gt;VALUE</text>
 <polygon width="0.1524" layer="94">
-<vertex x="1.016" y="0"/>
-<vertex x="2.54" y="-1.016"/>
-<vertex x="2.54" y="1.016"/>
+<vertex x="0" y="1.016"/>
+<vertex x="1.016" y="2.54"/>
+<vertex x="-1.016" y="2.54"/>
 </polygon>
+</symbol>
+<symbol name="CAP_POL" urn="urn:adsk.eagle:symbol:17573731/2">
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-2.54" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-2.54" x2="-0.508" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-0.508" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="1.27" x2="-2.794" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.286" y1="1.778" x2="-2.286" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="0" width="0.1524" layer="94"/>
+<text x="0" y="3.81" size="1.27" layer="95" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-3.81" size="1.27" layer="96" font="vector" align="center">&gt;VALUE</text>
+<pin name="+" x="-5.08" y="0" visible="pad" length="short"/>
+<pin name="-" x="5.08" y="0" visible="pad" length="short" rot="R180"/>
+<polygon width="0.254" layer="94">
+<vertex x="1.27" y="2.54"/>
+<vertex x="1.27" y="-2.54"/>
+<vertex x="0.508" y="-2.54"/>
+<vertex x="0.508" y="2.54"/>
+</polygon>
+</symbol>
+<symbol name="ELKO" urn="urn:adsk.eagle:symbol:19504224/2">
+<wire x1="0.889" y1="-1.524" x2="0.889" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0.889" y1="1.524" x2="0" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.524" x2="0.889" y2="-1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.524" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="0" y2="1.524" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<text x="-0.4064" y="-0.5842" size="1.27" layer="94" rot="R180">+</text>
+<text x="1.27" y="2.54" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="1.27" y="-2.54" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<rectangle x1="0.4445" y1="-0.4445" x2="3.7465" y2="0.4445" layer="94" rot="R90"/>
+</symbol>
+<symbol name="CAP" urn="urn:adsk.eagle:symbol:19504226/2">
+<wire x1="0" y1="0" x2="0.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.032" y2="0" width="0.1524" layer="94"/>
+<text x="1.27" y="2.54" size="1.778" layer="95" font="vector" rot="R180" align="top-center">&gt;NAME</text>
+<text x="1.27" y="-2.54" size="1.778" layer="96" font="vector" rot="R180" align="bottom-center">&gt;VALUE</text>
+<rectangle x1="-0.254" y1="-0.254" x2="3.81" y2="0.254" layer="94" rot="R90"/>
+<rectangle x1="-1.27" y1="-0.254" x2="2.794" y2="0.254" layer="94" rot="R90"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="C-103" prefix="C">
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="C-103">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="C-104" prefix="C">
+<deviceset name="C-0.1UF" prefix="C" urn="urn:adsk.eagle:component:19504229/3">
 <gates>
 <gate name="G$1" symbol="CAP" x="0" y="0"/>
 </gates>
@@ -350,6 +336,28 @@
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19504227/3"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="C-0.01UF" prefix="C" urn="urn:adsk.eagle:component:19504230/3">
+<gates>
+<gate name="G$1" symbol="CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C-103">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:19504228/3"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -364,6 +372,11 @@
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
 will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>
