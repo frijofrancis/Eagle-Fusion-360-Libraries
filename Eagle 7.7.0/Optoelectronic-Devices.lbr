@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="7.7.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="yes"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;author&gt;Created by Frijo Francis&lt;/author&gt;&lt;p&gt;
+&lt;b&gt;Eagle ver 7.7.0&lt;/b&gt;
+&lt;p&gt;For more Eagle libraries go to &lt;a href="https://github.com/frijofrancis/libraries"&gt;Github&lt;/a&gt;</description>
+<packages>
+<package name="SOP254P960X400-4M">
+<description>4-SOP, 2.54 mm pitch, 9.60 mm span, 4.60 X 6.50 X 4.00 mm body
+&lt;p&gt;4-pin SOP package with 2.54 mm pitch, 9.60 mm span with body size 4.60 X 6.50 X 4.00 mm&lt;/p&gt;</description>
+<circle x="-4.5269" y="2.5341" radius="0.25" width="0" layer="21"/>
+<wire x1="-3.5" y1="2.2841" x2="-3.5" y2="2.475" width="0.12" layer="21"/>
+<wire x1="-3.5" y1="2.475" x2="3.5" y2="2.475" width="0.12" layer="21"/>
+<wire x1="3.5" y1="2.475" x2="3.5" y2="2.2841" width="0.12" layer="21"/>
+<wire x1="-3.5" y1="-2.2841" x2="-3.5" y2="-2.475" width="0.12" layer="21"/>
+<wire x1="-3.5" y1="-2.475" x2="3.5" y2="-2.475" width="0.12" layer="21"/>
+<wire x1="3.5" y1="-2.475" x2="3.5" y2="-2.2841" width="0.12" layer="21"/>
+<wire x1="3.5" y1="-2.475" x2="-3.5" y2="-2.475" width="0.12" layer="51"/>
+<wire x1="-3.5" y1="-2.475" x2="-3.5" y2="2.475" width="0.12" layer="51"/>
+<wire x1="-3.5" y1="2.475" x2="3.5" y2="2.475" width="0.12" layer="51"/>
+<wire x1="3.5" y1="2.475" x2="3.5" y2="-2.475" width="0.12" layer="51"/>
+<smd name="1" x="-4.3276" y="1.27" dx="2.4525" dy="1.5202" layer="1"/>
+<smd name="2" x="-4.3276" y="-1.27" dx="2.4525" dy="1.5202" layer="1"/>
+<smd name="3" x="4.3276" y="-1.27" dx="2.4525" dy="1.5202" layer="1"/>
+<smd name="4" x="4.3276" y="1.27" dx="2.4525" dy="1.5202" layer="1"/>
+<text x="0" y="3.4191" size="1.27" layer="25" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.11" size="1.27" layer="27" font="vector" align="top-center">&gt;VALUE</text>
+</package>
+<package name="DIP762W60P254L460H455Q4N">
+<description>&lt;b&gt;dip-4&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1" x="-3.81" y="1.27" drill="0.8" diameter="1.2" first="yes"/>
+<pad name="2" x="-3.81" y="-1.27" drill="0.8" diameter="1.2"/>
+<pad name="3" x="3.81" y="-1.27" drill="0.8" diameter="1.2"/>
+<pad name="4" x="3.81" y="1.27" drill="0.8" diameter="1.2"/>
+<text x="0" y="3" size="1" layer="25" ratio="10" align="bottom-center">&gt;NAME</text>
+<wire x1="-3.5" y1="2.475" x2="3.5" y2="2.475" width="0.1" layer="51"/>
+<wire x1="3.5" y1="2.475" x2="3.5" y2="-2.475" width="0.1" layer="51"/>
+<wire x1="3.5" y1="-2.475" x2="-3.5" y2="-2.475" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="-2.475" x2="-3.5" y2="2.475" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="1.205" x2="-2.23" y2="2.475" width="0.1" layer="51"/>
+<wire x1="-3.5" y1="2.5" x2="3.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-2.5" x2="3.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="0.5" x2="-3.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="3.5" y1="0.5" x2="3.5" y2="-0.5" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="2.5" x2="-3.5" y2="2" width="0.127" layer="21"/>
+<wire x1="3.5" y1="2.5" x2="3.5" y2="2" width="0.127" layer="21"/>
+<wire x1="-3.5" y1="-2.5" x2="-3.5" y2="-2" width="0.127" layer="21"/>
+<wire x1="3.5" y1="-2.5" x2="3.5" y2="-2" width="0.127" layer="21"/>
+<circle x="-5.08" y="1.27" radius="0.1" width="0.2" layer="21"/>
+</package>
+<package name="LEDRD254W60D400H530A">
+<description>Radial LED (Round), 2.54 mm pitch, 4.00 mm body diameter, 5.30 mm body height
+&lt;p&gt;Radial LED (Round) package with 2.54 mm pitch (lead spacing), 0.60 mm lead width, 0.60 mm lead thickness, 4.00 mm body diameter and 5.30 mm body height&lt;/p&gt;</description>
+<wire x1="1.6862" y1="1.0756" x2="-1.6862" y2="1.0756" width="0.12" layer="21" curve="114.935"/>
+<wire x1="1.6862" y1="-1.0756" x2="-1.6862" y2="-1.0756" width="0.12" layer="21" curve="-114.935"/>
+<wire x1="-2.0112" y1="2.0113" x2="-1.2612" y2="2.0113" width="0.12" layer="21"/>
+<wire x1="-1.6362" y1="2.3863" x2="-1.6362" y2="1.6363" width="0.12" layer="21"/>
+<pad name="A" x="-1.27" y="0" drill="1" diameter="1.8" shape="square" first="yes"/>
+<pad name="C" x="1.27" y="0" drill="1.0985" diameter="1.8"/>
+<circle x="0" y="0" radius="2" width="0.12" layer="51"/>
+<text x="0" y="3.0213" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-2.635" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="PC817">
+<pin name="ANODE" x="-7.62" y="5.08" visible="off" length="short"/>
+<pin name="CATHODE" x="-7.62" y="-2.54" visible="off" length="short"/>
+<pin name="COLLECTOR" x="10.16" y="5.08" visible="off" length="short" rot="R180"/>
+<pin name="EMITTER" x="10.16" y="-2.54" visible="off" length="short" rot="R180"/>
+<wire x1="-2.54" y1="2.54" x2="-1.27" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="2.54" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="0" x2="-1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.032" y2="3.048" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.032" y2="2.032" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.032" y2="0.508" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.032" y2="-0.508" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="0" x2="4.572" y2="0" width="0.1524" layer="94"/>
+<wire x1="4.572" y1="0" x2="5.842" y2="-1.27" width="0.1524" layer="94"/>
+<wire x1="4.572" y1="2.54" x2="5.842" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="2.54" x2="4.572" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="5.842" y1="5.08" x2="5.842" y2="3.81" width="0.1524" layer="94"/>
+<wire x1="5.842" y1="-1.27" x2="5.842" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="-5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="5.842" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-2.54" x2="5.842" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="5.08" x2="-1.27" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-1.27" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="4.064" x2="3.302" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="2.54" x2="-1.27" y2="5.08" width="0.1524" layer="94"/>
+<text x="-4.826" y="5.334" size="0.762" layer="95" font="vector">Anode</text>
+<text x="7.62" y="5.334" size="0.762" layer="95" font="vector" align="bottom-right">Collector</text>
+<text x="7.62" y="-3.048" size="0.762" layer="95" font="vector" align="center-right">Emitter</text>
+<text x="-4.826" y="-3.048" size="0.762" layer="95" font="vector" align="center-left">Cathode</text>
+<text x="1.524" y="8.255" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="1.27" y="-5.715" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+</symbol>
+<symbol name="LED">
+<description>&lt;h3&gt;LED&lt;/h3&gt;
+&lt;p&gt;&lt;/p&gt;</description>
+<wire x1="0" y1="1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-0.762" y1="1.524" x2="0.635" y2="2.921" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="1.905" x2="-0.508" y2="3.302" width="0.1524" layer="94"/>
+<text x="-5.08" y="4.445" size="1.27" layer="96" font="vector">&gt;VALUE</text>
+<text x="-5.08" y="6.477" size="1.27" layer="95" font="vector">&gt;NAME</text>
+<pin name="C" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<pin name="A" x="-5.08" y="0" visible="off" length="short" direction="pas"/>
+<polygon width="0.1524" layer="94">
+<vertex x="0.635" y="2.921"/>
+<vertex x="0.254" y="2.032"/>
+<vertex x="-0.254" y="2.54"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-0.508" y="3.302"/>
+<vertex x="-0.889" y="2.413"/>
+<vertex x="-1.397" y="2.921"/>
+</polygon>
+<polygon width="0.254" layer="94">
+<vertex x="-2.54" y="1.27"/>
+<vertex x="-2.54" y="-1.27"/>
+<vertex x="0" y="0"/>
+</polygon>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="PC817X2NIP1B" prefix="OC">
+<gates>
+<gate name="G$1" symbol="PC817" x="-5.08" y="-5.08"/>
+</gates>
+<devices>
+<device name="-SOP4" package="SOP254P960X400-4M">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="1"/>
+<connect gate="G$1" pin="CATHODE" pad="2"/>
+<connect gate="G$1" pin="COLLECTOR" pad="4"/>
+<connect gate="G$1" pin="EMITTER" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value="Optoisolator Transistor Output 5000Vrms 1 Channel" constant="no"/>
+<attribute name="LINK" value="https://components101.com/ics/pc817-ic-pinout-equivalent-datasheet" constant="no"/>
+<attribute name="MANUFACTURER" value="SHARP/Socle Technology" constant="no"/>
+<attribute name="PACKAGE" value="SOP4" constant="no"/>
+<attribute name="PART_NUMBER" value="PC817" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="-DIP4" package="DIP762W60P254L460H455Q4N">
+<connects>
+<connect gate="G$1" pin="ANODE" pad="1"/>
+<connect gate="G$1" pin="CATHODE" pad="2"/>
+<connect gate="G$1" pin="COLLECTOR" pad="4"/>
+<connect gate="G$1" pin="EMITTER" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="https://components101.com/sites/default/files/component_datasheet/PC817%20Datasheet.pdf" constant="no"/>
+<attribute name="DESCRIPTION" value="Optoisolator Transistor Output 1 Channel 4-DIP" constant="no"/>
+<attribute name="LINK" value="https://components101.com/ics/pc817-ic-pinout-equivalent-datasheet" constant="no"/>
+<attribute name="MANUFACTURER" value="SHARP/Socle Technology" constant="no"/>
+<attribute name="MPN" value="PC817" constant="no"/>
+<attribute name="PACKAGE" value="DIP4" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LED" prefix="D">
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-3MM-RED" package="LEDRD254W60D400H530A">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>

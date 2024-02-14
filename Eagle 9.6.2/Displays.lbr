@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.6.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<description>&lt;author&gt;Created by Frijo Francis&lt;/author&gt;&lt;p&gt;
+&lt;b&gt;Eagle ver 9.6.2&lt;/b&gt;
+&lt;p&gt;For more Eagle libraries go to &lt;a href="https://github.com/frijofrancis/libraries"&gt;Github&lt;/a&gt;</description>
+<packages>
+<package name="0.96_IN_OLED_DISPLAY">
+<wire x1="0" y1="0" x2="6.65" y2="0" width="0.127" layer="21"/>
+<wire x1="6.65" y1="0" x2="6.65" y2="2" width="0.127" layer="21"/>
+<wire x1="6.65" y1="2" x2="20.65" y2="2" width="0.127" layer="21"/>
+<wire x1="20.65" y1="2" x2="20.65" y2="0" width="0.127" layer="21"/>
+<wire x1="20.65" y1="0" x2="27.3" y2="0" width="0.127" layer="21"/>
+<wire x1="27.3" y1="0" x2="27.3" y2="27.8" width="0.127" layer="21"/>
+<wire x1="27.3" y1="27.8" x2="0" y2="27.8" width="0.127" layer="21"/>
+<wire x1="0" y1="27.8" x2="0" y2="0" width="0.127" layer="21"/>
+<wire x1="0.3" y1="4" x2="27" y2="4" width="0.127" layer="21"/>
+<wire x1="27" y1="4" x2="27" y2="23.8" width="0.127" layer="21"/>
+<wire x1="27" y1="23.8" x2="0.3" y2="23.8" width="0.127" layer="21"/>
+<wire x1="0.3" y1="23.8" x2="0.3" y2="4" width="0.127" layer="21"/>
+<wire x1="2.78" y1="21.7" x2="24.52" y2="21.7" width="0.127" layer="21"/>
+<wire x1="24.52" y1="21.7" x2="24.52" y2="10.66" width="0.127" layer="21"/>
+<wire x1="24.52" y1="10.66" x2="2.78" y2="10.66" width="0.127" layer="21"/>
+<wire x1="2.78" y1="10.66" x2="2.78" y2="21.7" width="0.127" layer="21"/>
+<hole x="2" y="25.8" drill="3.5"/>
+<hole x="2" y="2" drill="3.5"/>
+<hole x="25.3" y="2" drill="3.5"/>
+<hole x="25.3" y="25.8" drill="3.5"/>
+<pad name="GND" x="9.84" y="26.3" drill="0.6" shape="square"/>
+<pad name="VCC" x="12.38" y="26.3" drill="0.6"/>
+<pad name="SCL" x="14.92" y="26.3" drill="0.6"/>
+<pad name="SDA" x="17.46" y="26.3" drill="0.6"/>
+<text x="21.6" y="28.4" size="1.27" layer="25">&gt;NAME</text>
+<text x="0" y="-2" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="128*64_I2C_OLED_DISPLAY">
+<pin name="GND" x="12.7" y="-5.08" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="VCC" x="5.08" y="-5.08" visible="pin" length="middle" direction="pwr" rot="R90"/>
+<pin name="SCL" x="7.62" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<pin name="SDA" x="10.16" y="-5.08" visible="pin" length="middle" rot="R90"/>
+<wire x1="0" y1="12.7" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="17.78" y2="0" width="0.254" layer="94"/>
+<wire x1="17.78" y1="0" x2="17.78" y2="12.7" width="0.254" layer="94"/>
+<wire x1="17.78" y1="12.7" x2="0" y2="12.7" width="0.254" layer="94"/>
+<wire x1="2.54" y1="10.16" x2="2.54" y2="2.032" width="0.254" layer="90"/>
+<wire x1="2.54" y1="2.032" x2="15.24" y2="2.032" width="0.254" layer="90"/>
+<wire x1="15.24" y1="2.032" x2="15.24" y2="10.16" width="0.254" layer="90"/>
+<wire x1="15.24" y1="10.16" x2="2.54" y2="10.16" width="0.254" layer="90"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="0.96-OLED" prefix="OLED">
+<description>&lt;b&gt;Interface:&lt;/b&gt; IIC/I2C
+&lt;br&gt;
+&lt;br&gt;GND: Power Gound
+&lt;br&gt;VCC: 3.3V-5V
+&lt;br&gt;SCL: CLK clock
+&lt;br&gt;SDA: IIC data
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Features:&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;Color: White LED
+&lt;br&gt;Resolution: 128x64
+&lt;br&gt;Power: 0.06W
+&lt;br&gt;Wide power supply range: DC 3V-5V
+&lt;br&gt;Temperature: -30°C to 70°C
+&lt;br&gt;Dimension: 29.28 x 27.1 mm (LW)
+&lt;br&gt;Compatible with 3.3V and 5V control chip I / O level
+&lt;br&gt;OLED internal drive chip: SSD1306
+&lt;br&gt;
+&lt;br&gt;&lt;b&gt;Package included:&lt;/b&gt;&lt;br&gt;
+
+&lt;br&gt;1 x White OLED display</description>
+<gates>
+<gate name="G$1" symbol="128*64_I2C_OLED_DISPLAY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0.96_IN_OLED_DISPLAY">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DATASHEET" value="value" constant="no"/>
+<attribute name="DIGIKEY-PART-NUMBER" value="value" constant="no"/>
+<attribute name="LINK" value="value" constant="no"/>
+<attribute name="MANUFACTURER" value="value" constant="no"/>
+<attribute name="MPN" value="value" constant="no"/>
+<attribute name="TECHNOLOGY" value="value" constant="no"/>
+<attribute name="UNIT-PRICE" value="value" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
